@@ -1,7 +1,7 @@
 {
   "type": "datasource",
   "name": "Dremio",
-  "id": "digital-hub-dremio",
+  "id": "grafana-dremio-datasource-plugin",
   "metrics": true,
   "info": {
     "description": "",
@@ -15,7 +15,7 @@
       "large": "img/logo.svg"
     },
     "screenshots": [],
-    "version": "%VERSION%",
+    "version": "1.0.0",
     "updated": "%TODAY%"
   },
   "dependencies": {
