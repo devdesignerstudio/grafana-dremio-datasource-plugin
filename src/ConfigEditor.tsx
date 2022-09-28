@@ -86,6 +86,7 @@ export class ConfigEditor extends PureComponent<Props, State> {
         <div className="gf-form">
           <FormField
             label="Password"
+            type="password"
             onChange={this.onPasswordChange}
             value={jsonData.password || ''}
             placeholder="Dremio password"
