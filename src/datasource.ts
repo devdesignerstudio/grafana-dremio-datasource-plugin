@@ -77,7 +77,7 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
   async getJobResults(jobId: string) {
     return getBackendSrv().datasourceRequest({
       method: 'GET',
-      url: `${this.proxyUrl}/api/v3/job/${jobId}/results`,
+      url: `${this.proxyUrl}/api/v3/job/${jobId}/results?limit=500`,
       headers: {
         Authorization: this.tokenPrefix + this.token,
       },
